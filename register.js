@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
           const responseData = await response.json();
           console.log(responseData);
           // Redirect user to another page after successful registration
-          window.location.href = 'login.html'; // Adjust the URL as needed
+          window.location.href = 'index.html'; // Adjust the URL as needed
       } catch (error) {
           console.error('Error:', error);
       }
