@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recent 10 Workouts</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="login.html">Home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="btn btn-danger ml-2" href="logout.html">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="mt-4">
+        <div class="container">
+            <h1>Recent 10 Workouts</h1>
+        </div>
+    </header>
+    <main class="mt-4">
+        <div class="container">
+            <section>
+                <button id="fetchDataBtn" class="btn btn-primary">Fetch Recent Workouts</button>
+            </section>
+            <section>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>User ID</th>
+                            <th>Exercise</th>
+                            <th>Reps</th>
+                            <th>Weight (kg)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody"></tbody>
+                </table>
+                <p class="no-data-msg">No workout data available.</p>
+            </section>
+        </div>
+    </main>
+    <footer class="mt-4">
+        <div class="container">
+            <p>&copy; 2024 Workout Tracker</p>
+        </div>
+    </footer>
+    <script src="profile.js" type="module"></script>
+</body>
+</html>

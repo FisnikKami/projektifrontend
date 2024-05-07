@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Users Management</title>
+  <link rel="stylesheet" href="./account.css"> <!-- Adjust the path to your CSS file if needed -->
+</head>
+<body>
+  <header>
+    <h1>Users Management</h1>
+    <!-- Add any header content if needed -->
+  </header>
+  <main>
+    <div class="user-info">
+      <p>Welcome, <span id="name">NIMI TÄHÄN</span>!</p> <!-- Placeholder text for the username -->
+    </div>
+
+    <table class="styled-table">
+      <thead>
+        <tr>
+          <th>User Name</th>
+          <th>User Level</th>
+          <th>Info</th>
+          <th>Delete</th>
+          <th>ID</th>
+        </tr>
+      </thead>
+      <tbody class="tbody">
+        <!-- Table rows will be dynamically populated here -->
+      </tbody>
+    </table>
+
+    <!-- Buttons for fetching and displaying data -->
+    <button class="get_users">Get Users</button>
+    <button class="get_entry">Get Entry</button>
+  </main>
+  <script src="start-api-harjoituspohja.js" type="module"></script> <!-- Adjust the path to your JavaScript file if needed -->
+</body>
+</html>
