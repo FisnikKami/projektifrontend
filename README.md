@@ -2,9 +2,13 @@
 # Front-end
 1. Kuvankaappaukset:
 <p align="center">
-  <img src="screenshots/login.png" alt="Login sivu" width="200">
-  <img src="/screenshots/register.png" alt="Register sivu" width="200">
-  <img src="/screenshots/users.png" alt="Käyttäjät" width="200">
+  <img src="/screenshots/hrvsivu.png" alt="Login sivu" width="200">
+  <img src="/screenshots/käyttäjät.png" alt="Register sivu" width="200">
+  <img src="/screenshots/login.png" alt="Käyttäjät" width="200">
+  <img src="/screenshots/treeniohjelma.png" alt="Käyttäjät" width="200">
+  <img src="/screenshots/home.png" alt="Käyttäjät" width="200">
+  <img src="/screenshots/register1.png" alt="Käyttäjät" width="200">
+
 </p>
 
 2. Toiminnallisuudet:
