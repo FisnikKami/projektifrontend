@@ -8,6 +8,7 @@
   <img src="/screenshots/treeniohjelma.png" alt="Käyttäjät" width="200">
   <img src="/screenshots/home.png" alt="Käyttäjät" width="200">
   <img src="/screenshots/register1.png" alt="Käyttäjät" width="200">
+  <img src="/" alt="Login sivu" width="200">
 
 </p>
 
@@ -24,10 +25,24 @@ Jokaisessa sivuissa käyttjä pääsee takaisin home sivulle ja jokaisesta sivus
 <img src="/screenshots/image.png" alt="Käyttäjät" width="200">
  
 
-3. Linkki API-dokumentaatioon (backend repo): [APIDOC](https://github.com/FisnikKami/backendprojekti)
+4. referenssit, käytetyt tutoriaalit, grafiikkakirjastot
 
-#refrenssit
-käytin refrenssinä tätä youtube videota https://www.youtube.com/watch?v=hlwlM4a5rxg&t=258s&ab_channel=Codehal
+Käytimme https://startbootstrap.com/ templaten hakemiseen.
+
+Käytimme chatGPT apuna, joihinkin koodin kohtiin.
+
+Käytimme diagrammi koodin hakemiseen sivua, jonka Ulla näytti, mutta en muista sitä nimeä.
+
+Käytimme Youtubea myös apuna.
+
+
+mahdolliset tiedossa olevat bugit/ongelmat
+
+-Kubios hrv toiminta = ei toimi
+-Emme löytäneet vielä merkittäviä bugeja
+-Emme voi lisätä kuin yhden treeniohjelman keralla.
+-Meidän ryhmän jäsen lopetti kesken, jonka takia ei päästy ihan 100% loppu tavoitteeseen. 
+be.com/watch?v=hlwlM4a5rxg&t=258s&ab_channel=Codehal
 
 
 # bacup
