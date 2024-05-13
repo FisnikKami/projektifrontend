@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>training</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Bootstrap Icons CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style1.css">
+    <!-- jQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="login.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <button class="btn btn-danger" id="logoutButton">Logout</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="mt-4">
+        <div class="container">
+            <h1>Recent 10 Workouts</h1>
+        </div>
+    </header>
+    <main class="mt-4">
+        <div class="container">
+            <section>
+                <button id="fetchDataBtn" class="btn btn-primary">Recent Workouts</button>
+            </section>
+            <section>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>User ID</th>
+                            <th>Exercise</th>
+                            <th>Reps</th>
+                            <th>Weight (kg)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody"></tbody>
+                </table>
+                <p class="no-data-msg">No workout data available.</p>
+            </section>
+        </div>
+    </main>
+    <footer class="mt-4">
+        <div class="container">
+            <p>&copy; 2024 Workout Tracker</p>
+        </div>
+    </footer>
+    <script src="profile.js" type="module"></script>
+</body>
+</html>
