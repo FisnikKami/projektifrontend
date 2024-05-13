@@ -8,7 +8,7 @@
   <img src="/screenshots/treeniohjelma.png" alt="Käyttäjät" width="200">
   <img src="/screenshots/home.png" alt="Käyttäjät" width="200">
   <img src="/screenshots/register1.png" alt="Käyttäjät" width="200">
-  <img src="/" alt="Login sivu" width="200">
+  <img src="/screenshots/testi3" alt="Login sivu" width="200">
 
 </p>
 
