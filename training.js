@@ -86,7 +86,7 @@ function logout() {
 
 async function getUsers() {
     console.log('Submitting form data');
-    const url = 'http://127.0.0.1:3000/api/entries';
+    const url = 'http://fisuversio2.swedencentral.cloudapp.azure.com/api/entries';
     let token = localStorage.getItem('token');
 
     // Retrieve values from form fields

@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
           return;
       }
 
-      const url = 'http://localhost:3000/api/users';
+      const url = 'http://fisuversio2.swedencentral.cloudapp.azure.com/api/users';
       const data = {
           username: usernameInput.value,
           password: passwordInput.value,

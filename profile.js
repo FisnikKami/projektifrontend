@@ -55,7 +55,7 @@ async function fetchData(url, options) {
 // Funktion alustus getUsers:n määrittämiseksi
 async function getUsers() {
     console.log('Haetaan kaikki käyttäjät ja heidän viimeiset 10 treeniään');
-    const url = 'http://127.0.0.1:3000/api/entries';
+    const url = 'http://fisuversio2.swedencentral.cloudapp.azure.com/api/entries';
     let token = localStorage.getItem('token');
     const options = {
         method: 'GET',
@@ -95,3 +95,4 @@ $(document).ready(function () {
 // Lisätään tapahtumankäsittelijä napille
 document.getElementById('fetchDataBtn').addEventListener('click', getUsers);
 
+ 
